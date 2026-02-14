@@ -1,0 +1,54 @@
+# Backups
+*.backup
+*.bak
+*~
+.backup/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Credentials and secrets
+*.key
+*.pem
+*.token
+*_token
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+client_secret*.json
+*_credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+test_*.sh
+*_test.sh
+debug_*.sh
+test_urls.txt
+
+# Session files
+*.session
+*.session-journal
+.config/
+
+# Backups
+.backup/
